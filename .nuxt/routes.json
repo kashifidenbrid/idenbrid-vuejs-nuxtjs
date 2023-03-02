@@ -1,0 +1,163 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_eeadab6e"
+  },
+  {
+    "name": "app-development",
+    "path": "/app-development",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/app-development.vue",
+    "chunkName": "pages/app-development",
+    "_name": "_4954384b"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_3a537a16"
+  },
+  {
+    "name": "blog-grid",
+    "path": "/blog-grid",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/blog-grid.vue",
+    "chunkName": "pages/blog-grid",
+    "_name": "_5995e54d"
+  },
+  {
+    "name": "blog-single",
+    "path": "/blog-single",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/blog-single.vue",
+    "chunkName": "pages/blog-single",
+    "_name": "_d0dea4e2"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_0584905c"
+  },
+  {
+    "name": "digital-marketing",
+    "path": "/digital-marketing",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/digital-marketing.vue",
+    "chunkName": "pages/digital-marketing",
+    "_name": "_40be4926"
+  },
+  {
+    "name": "faqs",
+    "path": "/faqs",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/faqs.vue",
+    "chunkName": "pages/faqs",
+    "_name": "_cff325de"
+  },
+  {
+    "name": "getquotation",
+    "path": "/getquotation",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/getquotation.vue",
+    "chunkName": "pages/getquotation",
+    "_name": "_dbd4692c"
+  },
+  {
+    "name": "graphic-designing",
+    "path": "/graphic-designing",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/graphic-designing.vue",
+    "chunkName": "pages/graphic-designing",
+    "_name": "_14881f0a"
+  },
+  {
+    "name": "index-2",
+    "path": "/index-2",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/index-2.vue",
+    "chunkName": "pages/index-2",
+    "_name": "_0ea0eab3"
+  },
+  {
+    "name": "index-3",
+    "path": "/index-3",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/index-3.vue",
+    "chunkName": "pages/index-3",
+    "_name": "_0eaf0234"
+  },
+  {
+    "name": "not-found",
+    "path": "/not-found",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/not-found.vue",
+    "chunkName": "pages/not-found",
+    "_name": "_18240b44"
+  },
+  {
+    "name": "portfolio",
+    "path": "/portfolio",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/portfolio.vue",
+    "chunkName": "pages/portfolio",
+    "_name": "_b08c76f8"
+  },
+  {
+    "name": "portfolio-single",
+    "path": "/portfolio-single",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/portfolio-single.vue",
+    "chunkName": "pages/portfolio-single",
+    "_name": "_25246b61"
+  },
+  {
+    "name": "portfolio-single-2",
+    "path": "/portfolio-single-2",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/portfolio-single-2.vue",
+    "chunkName": "pages/portfolio-single-2",
+    "_name": "_68240846"
+  },
+  {
+    "name": "seo",
+    "path": "/seo",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/seo.vue",
+    "chunkName": "pages/seo",
+    "_name": "_aaa597ce"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/services.vue",
+    "chunkName": "pages/services",
+    "_name": "_7803ced2"
+  },
+  {
+    "name": "team",
+    "path": "/team",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/team.vue",
+    "chunkName": "pages/team",
+    "_name": "_0364915e"
+  },
+  {
+    "name": "testimonials",
+    "path": "/testimonials",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/testimonials.vue",
+    "chunkName": "pages/testimonials",
+    "_name": "_095fc528"
+  },
+  {
+    "name": "ui-designing",
+    "path": "/ui-designing",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/ui-designing.vue",
+    "chunkName": "pages/ui-designing",
+    "_name": "_20400142"
+  },
+  {
+    "name": "web-development",
+    "path": "/web-development",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/web-development.vue",
+    "chunkName": "pages/web-development",
+    "_name": "_1a69c37e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_af3df5e4"
+  }
+]
