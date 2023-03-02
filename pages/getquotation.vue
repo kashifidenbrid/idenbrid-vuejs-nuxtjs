@@ -51,7 +51,7 @@
                     <textarea
                       placeholder="Example: we are currently considering building a new e-commerce site in-house and would like to develop a cloud based site and mobile app for iOS only, what is the time frame and cost?"
                       name="" rows="8" cols="90" class="form-textfield"></textarea>
-                  </div> <input type="button" name="previous" value="return" class="previous action-button-previous">
+                  </div> <input type="button" name="previous" value="Back" class="previous action-button-previous">
                   <input type="button" name="next" value="Next" class="next action-button">
                 </fieldset>
                 <fieldset>
@@ -80,7 +80,7 @@
                         <div class="check"></div>
                       </li>
                     </ul>
-                  </div> <input type="button" name="previous" value="return" class="previous action-button-previous">
+                  </div> <input type="button" name="previous" value="Back" class="previous action-button-previous">
                   <input type="button" name="next" value="Next" class="next action-button">
                 </fieldset>
                 <fieldset>
@@ -100,16 +100,17 @@
                               application system</label></div>
                           <div id="inputPreview">
                             <input name="cssCheckbox" value="front-end (processor)" id="demo_opt_2" type="checkbox"
-                              checked="checked" class="css-checkbox">
+                              class="css-checkbox">
                             <label for="demo_opt_2">front-end (processor)</label></div>
-                          <div id="inputPreview"><input name="cssCheckbox" value="EC Site" id="demo_opt_3"
+                          <div id="inputPreview">
+                            <input name="cssCheckbox" value="EC Site" id="demo_opt_3"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_3">EC Site</label></div>
                         </div>
                         <div class="checkbox-grid">
                           <div id="inputPreview"><input name="cssCheckbox" value="Mobile Apps" id="demo_opt_4"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_4">Mobile Apps</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="blockchain" id="demo_opt_5"
-                              type="checkbox" checked="checked" class="css-checkbox">
+                              type="checkbox"  class="css-checkbox">
                             <label for="demo_opt_5">blockchain</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="API coupling" id="demo_opt_6"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_6">API coupling</label></div>
@@ -118,7 +119,7 @@
                           <div id="inputPreview"><input name="cssCheckbox" value="system design" id="demo_opt_7"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_7">system design</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="blockchain" id="demo_opt_8"
-                              type="checkbox" checked="checked" class="css-checkbox">
+                              type="checkbox"  class="css-checkbox">
                             <label for="demo_opt_8">blockchain</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="AI (Artificial Intelligence)"
                               id="demo_opt_9" type="checkbox" class="css-checkbox"> <label for="demo_opt_9">AI
@@ -128,7 +129,7 @@
                           <div id="inputPreview"><input name="cssCheckbox" value="UIUX Design" id="demo_opt_10"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_10">UIUX Design</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="data engineer" id="demo_opt_11"
-                              type="checkbox" checked="checked" class="css-checkbox">
+                              type="checkbox"  class="css-checkbox">
                             <label for="demo_opt_11">data engineer</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="QA & Testing" id="demo_opt_12"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_12">QA & Testing</label></div>
@@ -137,7 +138,7 @@
                           <div id="inputPreview"><input name="cssCheckbox" value="Backend API" id="demo_opt_13"
                               type="checkbox" class="css-checkbox"> <label for="demo_opt_13">Backend API</label></div>
                           <div id="inputPreview"><input name="cssCheckbox" value="cybersecurity" id="demo_opt_14"
-                              type="checkbox" checked="checked" class="css-checkbox"> <label
+                              type="checkbox"  class="css-checkbox"> <label
                               for="demo_opt_14">cybersecurity</label>
                           </div>
                           <div id="inputPreview"><input name="cssCheckbox" value="Other" id="demo_opt_15"
@@ -251,7 +252,7 @@
                         </div>
                       </div>
                     </div>
-                  </div> <input type="button" name="previous" value="return" class="previous action-button-previous">
+                  </div> <input type="button" name="previous" value="Back" class="previous action-button-previous">
                   <input type="button" name="next" value="Next" class="next action-button">
                 </fieldset>
                 <fieldset>
@@ -280,7 +281,7 @@
                         <div class="check"></div>
                       </li>
                     </ul>
-                  </div> <input type="button" name="previous" value="return" class="previous action-button-previous">
+                  </div> <input type="button" name="previous" value="Back" class="previous action-button-previous">
                   <input type="button" name="next" value="Next" class="next action-button">
                 </fieldset>
                 <fieldset>
@@ -319,7 +320,7 @@
                       </li>
                     </ul>
                   </div>
-                  <input type="button" name="previous" value="return" class="previous action-button-previous">
+                  <input type="button" name="previous" value="Back" class="previous action-button-previous">
                   <input type="button" name="next" value="Next" class="next action-button">
                 </fieldset>
                 <fieldset>
@@ -348,7 +349,8 @@
                         </div>
                       </div>
                     </div>
-                  </div> <input type="submit" name="next" value="transmission" class="action-button">
+                  </div> 
+                  <input type="submit" name="next" value="Submit" class="action-button">
                 </fieldset>
               </form>
             </div>
@@ -434,7 +436,7 @@
           });
         });
         // jQuery(".submit").click(function () {
-        //     return false;
+        //     Back false;
         // })
       });
 
@@ -728,21 +730,23 @@
     margin: 10px 0px 10px 5px;
     float: left;
     text-align: center;
+    border-radius: 5px;
   }
 
-  #msform .action-button:hover,
+  /* #msform .action-button:hover,
   #msform .action-button:focus {
-    background-color: blue
-  }
+  
+  } */
 
   #msform .action-button-previous {
     width: 100px;
     height: 67px;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(57, 108, 162);
+    background: rgb(57, 108, 162);
+    color: white;
     border: 0 none;
-    border-radius: 0px;
+    border-radius: 5px;
     cursor: pointer;
     padding: 10px 5px;
     margin: 10px 5px 10px 0px;

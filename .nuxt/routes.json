@@ -35,6 +35,20 @@
     "_name": "_d0dea4e2"
   },
   {
+    "name": "ceomessage",
+    "path": "/ceomessage",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/ceomessage.vue",
+    "chunkName": "pages/ceomessage",
+    "_name": "_42748ee4"
+  },
+  {
+    "name": "company",
+    "path": "/company",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/company.vue",
+    "chunkName": "pages/company",
+    "_name": "_36719b8e"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/contact.vue",

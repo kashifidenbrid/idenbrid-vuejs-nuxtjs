@@ -2071,7 +2071,7 @@ img.lazy-image.loaded {
   display: table;
   vertical-align: middle;
   width: 100%;
-  height: 950px;
+  height: 700px;
   padding: 0 0px;
   z-index: 11;
 }
@@ -2080,7 +2080,7 @@ img.lazy-image.loaded {
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  padding: 150px 0px 50px;
+  /* padding: 150px 0px 50px; */
 }
 
 .banner-carousel .content-box .inner {
@@ -4348,6 +4348,7 @@ img.lazy-image.loaded {
   position: relative;
   max-width: 870px;
   margin: 0 auto;
+  z-index: 999;
 }
 
 .parallax-section .content-box .icon-box {

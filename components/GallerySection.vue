@@ -11,16 +11,16 @@
           <div class="filters clearfix">
             <ul class="filter-tabs filter-btns clearfix">
               <li class="filter mixitup-control-active" data-role="button" data-filter="all">All<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".branding">Branding<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".illustration">illustration<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".photography">Photography<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".web-design">Web Design<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".wedevelopment">Web development<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".webdesign">Web Design<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".uiuxdesign">UI/UX Design<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".web-application">Web Application<sup></sup></li>
             </ul>
           </div>
         </div>
         <div class="filter-list row">
           <!-- Gallery Item -->
-          <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12">
+          <div class="gallery-item mix all web-application col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/works_01.png" alt=""></figure>
               <a href="/images/gallery/works_01.png" class="lightbox-image overlay-box"
@@ -37,7 +37,7 @@
           </div>
 
           <!-- Gallery Item -->
-          <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+          <div class="gallery-item mix all uiuxdesign web-application col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/works_02.png" alt=""></figure>
               <a href="/images/gallery/works_02.png" class="lightbox-image overlay-box"
@@ -54,7 +54,7 @@
           </div>
 
           <!-- Gallery Item -->
-          <div class="gallery-item mix all branding web-design col-lg-4 col-md-6 col-sm-12">
+          <div class="gallery-item mix all wedevelopment wWeb developmentgn col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/works_03.png" alt=""></figure>
               <a href="/images/gallery/works_03.png" class="lightbox-image overlay-box"
@@ -71,7 +71,7 @@
           </div>
 
           <!-- Gallery Item -->
-          <div class="gallery-item mix all branding illustration col-lg-4 col-md-6 col-sm-12">
+          <div class="gallery-item mix all wedevelopment iWeb developmenttion col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/works_04.png" alt=""></figure>
               <a href="/images/gallery/works_04.png" class="lightbox-image overlay-box"
@@ -88,7 +88,7 @@
           </div>
 
           <!-- Gallery Item -->
-          <div class="gallery-item mix all branding illustration photography web-design col-lg-4 col-md-6 col-sm-12">
+          <div class="gallery-item mix all wedevelopment iWeb developmenttion uiuxdesign web-application col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/works_05.png" alt=""></figure>
               <a href="/images/gallery/works_05.png" class="lightbox-image overlay-box"
@@ -105,7 +105,7 @@
           </div>
 
           <!-- Gallery Item -->
-          <div class="gallery-item mix all illustration photography col-lg-4 col-md-6 col-sm-12">
+          <div class="gallery-item mix all webdesign uiuxdesign col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/works_06.png" alt=""></figure>
               <a href="/images/gallery/works_06.png" class="lightbox-image overlay-box"

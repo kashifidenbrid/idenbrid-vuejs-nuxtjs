@@ -28,8 +28,15 @@ export default {
     ],
 
     script: [
+    
       { src: "/plugins/glightbox/glightbox.min.js", body: true },
       { src: "/plugins/accordion/accordion.min.js", body: true },
+      { src: "https://threejs.org/examples/js/libs/stats.min.js", body: true },
+      { src: "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js", body: true },
+      { src: "/plugins/glightbox/main.js", body: true },
+      
+    
+     ,
     ]
   },
   /*

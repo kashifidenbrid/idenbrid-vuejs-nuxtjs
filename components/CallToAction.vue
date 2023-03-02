@@ -6,10 +6,10 @@
         <div class="shape-2 wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms"></div>
         <h2>Let's Get Your Project <br>Started!</h2>
         <div class="link-box">
-          <nuxt-link class="theme-btn btn-style-two" to="/about">
+          <a class="theme-btn btn-style-two" target="_blank" href="https://app.spirinc.com/patterns/availability-sharing/9571eae1-430a-406a-9188-e3b70095f4be/confirm-guest">
             <i class="btn-curve"></i>
-            <span class="btn-title">Contact with us</span>
-          </nuxt-link>
+            <span class="btn-title">Schedule a meeting</span>
+          </a>
         </div>
       </div>
     </div>

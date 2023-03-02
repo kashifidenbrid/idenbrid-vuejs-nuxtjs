@@ -4,9 +4,10 @@
       <div class="row clearfix">
         <!--Discover Block-->
         <div class="discover-block col-lg-4 col-md-6 col-sm-12">
-          <nuxt-link to="#">
+          <nuxt-link to="/company">
           <div class="inner-box">
-            <div class="image-box"><img src="/images/resource/Company.png" alt=""></div>
+            <div class="image-box">
+              <img src="/images/resource/Company.png" alt=""></div>
             <div class="cap-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
               <div class="cap-inner">
                 <h5>COMPANY / Company profile <br>
@@ -21,6 +22,7 @@
         </div>
         <!--Discover Block-->
         <div class="discover-block col-lg-4 col-md-6 col-sm-12">
+          <nuxt-link to="/ceomessage">
           <div class="inner-box">
             <div class="image-box"><img src="/images/resource/CEO-Mesasge.png" alt=""></div>
             <div class="cap-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -34,6 +36,7 @@
               </div>
             </div>
           </div>
+          </nuxt-link>
         </div>
          <!--Discover Block-->
         <div class="discover-block col-lg-4 col-md-6 col-sm-12">

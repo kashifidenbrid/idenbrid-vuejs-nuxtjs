@@ -8,6 +8,8 @@ const _4954384b = () => interopDefault(import('../pages/app-development.vue' /* 
 const _3a537a16 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
 const _5995e54d = () => interopDefault(import('../pages/blog-grid.vue' /* webpackChunkName: "pages/blog-grid" */))
 const _d0dea4e2 = () => interopDefault(import('../pages/blog-single.vue' /* webpackChunkName: "pages/blog-single" */))
+const _42748ee4 = () => interopDefault(import('../pages/ceomessage.vue' /* webpackChunkName: "pages/ceomessage" */))
+const _36719b8e = () => interopDefault(import('../pages/company.vue' /* webpackChunkName: "pages/company" */))
 const _0584905c = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _40be4926 = () => interopDefault(import('../pages/digital-marketing.vue' /* webpackChunkName: "pages/digital-marketing" */))
 const _cff325de = () => interopDefault(import('../pages/faqs.vue' /* webpackChunkName: "pages/faqs" */))
@@ -63,6 +65,14 @@ export const routerOptions = {
     path: "/blog-single",
     component: _d0dea4e2,
     name: "blog-single"
+  }, {
+    path: "/ceomessage",
+    component: _42748ee4,
+    name: "ceomessage"
+  }, {
+    path: "/company",
+    component: _36719b8e,
+    name: "company"
   }, {
     path: "/contact",
     component: _0584905c,

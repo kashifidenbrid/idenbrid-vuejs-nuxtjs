@@ -26,7 +26,7 @@
         <!-- Slide Item -->
               <!-- Slide Item -->
         <div class="slide-item">
-          <div class="image-layer" style="background-image: url(/images/main-slider/banner4.jpg);"></div>
+          <div class="image-layer" style="background-image: url(/images/main-slider/webbanner.jpeg);"></div>
           <div class="left-top-line"></div>
           <div class="right-bottom-curve"></div>
           <div class="right-top-curve"></div>

@@ -25,11 +25,12 @@
             </div>
             <div class="text clearfix">
               <ul>
-                <li>Suspe ndisse suscipit sagittis leo.</li>
-                <li>Entum estibulum dignissim posuere.</li>
-                <li>If you are going to use a passage.</li>
+                <li>Japanese market SDH: studio development hub (contracted development/laboratory type development).</li>
+                <li>SES engineer recruitment sales support.</li>
+                <li>Global market SDH: studio development hub (contracted development/laboratory type development).</li>
+                <li>Own application development and operation in Pakistan market.</li>
               </ul>
-              <div class="since"><span class="txt">Since <br>2020</span></div>
+              <!-- <div class="since"><span class="txt">Since <br>2020</span></div> -->
             </div>
             <div class="link-box">
               <nuxt-link class="theme-btn btn-style-one" to="/about">

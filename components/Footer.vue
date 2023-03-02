@@ -33,11 +33,11 @@
                 <div class="row clearfix">
                   <div class="col-md-6 col-sm-12">
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About us</a></li>
-                      <li><a href="#">Our Portfolio</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><nuxt-link to="/">Home</nuxt-link></li>
+                      <li><nuxt-link to="/about">About us</nuxt-link></li>
+                      <li><nuxt-link to="/portfolio">Our Portfolio</nuxt-link></li>
+                      <!-- <li><nuxt-link to="/blog">Blog</nuxt-link></li> -->
+                      <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                     </ul>
                   </div>
                   <!-- <div class="col-md-6 col-sm-12">

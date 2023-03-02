@@ -7,7 +7,7 @@
     <!-- <LiveSection /> -->
     <!-- <features-section-two /> -->
     <!-- <WedoSection /> -->
-    <FeaturesTwo />
+    <!-- <FeaturesTwo /> -->
     <!-- <TrustedSection /> -->
     <GallerySection />
     <!-- <TeamSection /> -->

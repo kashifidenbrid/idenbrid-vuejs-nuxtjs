@@ -124,7 +124,7 @@
 
         <div class="other-links clearfix">
           <div class="link-box">
-              <nuxt-link class="link" to="#">
+              <nuxt-link class="link" to="/getquotation">
                 <button class="btn-get-quote">Get Quote Us</button>
               </nuxt-link>
           </div>
