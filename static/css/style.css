@@ -455,7 +455,7 @@ img {
   bottom: 20px;
   width: 44px;
   height: 44px;
-  color: var(--thm-black);
+  color: var(--theme-cream);
   font-size: 14px;
   line-height: 44px;
   border-radius: 50%;
@@ -4394,6 +4394,7 @@ img.lazy-image.loaded {
 .parallax-section .content-box .icon-box span {
   position: relative;
   z-index: 2;
+  color: #fff;
 }
 
 .parallax-section .content-box h2 {

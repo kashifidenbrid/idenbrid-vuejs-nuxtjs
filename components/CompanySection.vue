@@ -33,18 +33,18 @@
                                 <span class="bld">Pakistan headquarters</span><br>B1F 176 Y block DHA Phase 3, Lahore Pakistan
                                 <br><a href="tel:+92-306-404-1221" class="tel_link no_link">TEL. +92-306-404-1221</a>
                                 <br>
-                                <a href="mailto:contactus@idenbrid.com" class="more_txt">MAIL :
-                                    contactusjp@idenbrid.com</a>
+                                <a href="mailto:contactusen@idenbrid.com" class="more_txt">MAIL :
+                                    contactusen@idenbrid.com</a>
                             </div>
-                            <div class="box mt">
+                            <!-- <div class="box mt">
 
                                 <router-link to="/office/" class="more_txt" target="_blank"><span
                                         class="underline">ACCESS</span></router-link>
-                            </div>
+                            </div> -->
                         </dd>
                     </dl>
                     <dl>
-                        <dt>IT Development Business</dt>
+                        <dt>IT Development<br>Business</dt>
                         <dd>・Japan Market SDH: Studio Development Hub (contracted and lab-based development)<br>
                             ・SES Engineer Recruitment Sales Support<br>
                             ・Global Market SDH: Studio Development Hub (contracted and lab-based development)<br>

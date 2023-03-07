@@ -151,7 +151,7 @@
     transition: background ease 0.2s;
     font-size: 18px;
     text-transform: uppercase;
-    color: #222;
+    color: #fff;
   }
 
   .agency-tabs .tab {
@@ -178,6 +178,7 @@
 
   .agency-tabs input[type="radio"]:checked+label {
     background: #F4F5F8;
+    color:#333;
   }
 
   .agency-tabs input[type="radio"]:checked+label+.tab {

@@ -12,6 +12,7 @@ const _42748ee4 = () => interopDefault(import('../pages/ceomessage.vue' /* webpa
 const _36719b8e = () => interopDefault(import('../pages/company.vue' /* webpackChunkName: "pages/company" */))
 const _0584905c = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _40be4926 = () => interopDefault(import('../pages/digital-marketing.vue' /* webpackChunkName: "pages/digital-marketing" */))
+const _621a34e5 = () => interopDefault(import('../pages/DigitalAsssts.vue' /* webpackChunkName: "pages/DigitalAsssts" */))
 const _cff325de = () => interopDefault(import('../pages/faqs.vue' /* webpackChunkName: "pages/faqs" */))
 const _dbd4692c = () => interopDefault(import('../pages/getquotation.vue' /* webpackChunkName: "pages/getquotation" */))
 const _14881f0a = () => interopDefault(import('../pages/graphic-designing.vue' /* webpackChunkName: "pages/graphic-designing" */))
@@ -81,6 +82,10 @@ export const routerOptions = {
     path: "/digital-marketing",
     component: _40be4926,
     name: "digital-marketing"
+  }, {
+    path: "/DigitalAsssts",
+    component: _621a34e5,
+    name: "DigitalAsssts"
   }, {
     path: "/faqs",
     component: _cff325de,

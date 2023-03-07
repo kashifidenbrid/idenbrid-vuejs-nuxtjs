@@ -63,6 +63,13 @@
     "_name": "_40be4926"
   },
   {
+    "name": "DigitalAsssts",
+    "path": "/DigitalAsssts",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/DigitalAsssts.vue",
+    "chunkName": "pages/DigitalAsssts",
+    "_name": "_621a34e5"
+  },
+  {
     "name": "faqs",
     "path": "/faqs",
     "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/faqs.vue",

@@ -17,7 +17,7 @@
                 <ul class="social-links clearfix">
                   <li><a href="https://www.facebook.com/idenbrid/"><span class="fab fa-facebook-square"></span></a></li>
                   <li><a href="https://twitter.com/idenbridinc"><span class="fab fa-twitter"></span></a></li>
-                  <li><a href="https://www.youtube.com/channel/UC5ENsxgAQIqVfBIMy-Fp-0w"><span class="fab fa-play"></span></a></li>
+                  <li><a href="https://www.youtube.com/channel/UC5ENsxgAQIqVfBIMy-Fp-0w"><span class="fa fa-play"></span></a></li>
                   <!-- <li><a href="#"><span class="fab fa-instagram"></span></a></li> -->
                   <!-- <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li> -->
                 </ul>
