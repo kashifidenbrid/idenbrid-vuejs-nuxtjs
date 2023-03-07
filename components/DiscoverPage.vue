@@ -79,7 +79,7 @@
               <div class="cap-inner">
                 <h5>DIGITAL ASSETS <br>
                   We provide the official logo and key visuals of IDENBRID.</h5>
-                <div class="more-link"><nuxt-link class="theme-btn" to="/about"><span
+                <div class="more-link"><nuxt-link class="theme-btn" to="/digitalAsssts"><span
                   class="fa fa-angle-right"></span></nuxt-link></div>
               </div>
             </div>
