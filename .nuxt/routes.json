@@ -112,6 +112,13 @@
     "_name": "_18240b44"
   },
   {
+    "name": "officepage",
+    "path": "/officepage",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/officepage.vue",
+    "chunkName": "pages/officepage",
+    "_name": "_e22fc782"
+  },
+  {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/portfolio.vue",

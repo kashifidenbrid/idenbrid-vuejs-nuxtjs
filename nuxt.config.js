@@ -24,7 +24,10 @@ export default {
       { rel: "stylesheet", href: "/css/style.css" },
       { rel: "stylesheet", href: "/css/rtl.css" },
       { rel: "stylesheet", href: "/css/responsive.css" },
-      { rel: "stylesheet", href: "/css/colors/color-default.css" }
+      { rel: "stylesheet", href: "/css/colors/color-default.css" },
+      { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"},
+
+
     ],
 
     script: [
@@ -34,7 +37,8 @@ export default {
       { src: "https://threejs.org/examples/js/libs/stats.min.js", body: true },
       { src: "https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js", body: true },
       { src: "/plugins/glightbox/main.js", body: true },
-      
+      { src: "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js", body:true}
+
     
      ,
     ]

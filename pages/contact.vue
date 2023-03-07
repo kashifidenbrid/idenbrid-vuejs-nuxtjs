@@ -16,7 +16,7 @@
       ContactPage,
       Footer,
       PageHeader,
-      Nav
+      Nav,
     },
     head(){
       return {

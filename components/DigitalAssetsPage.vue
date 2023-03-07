@@ -12,24 +12,44 @@
             <div class="kit kit-slim"><a href="/images/1.png"><img src="/images/1.png" alt=""></a></div>
           </div>
           <div>
-          <h5>Key Visual </h5>
-          <p> It will be an asset that represents our brand and services.</p>
-          <div class="kit"><a href="/images/image-(1).png" download="image" rel="noopener"><img
-                src="/images/image-(1).png" alt="Digital assets Banner image"></a></div>
-          <div class="kit"><a href="/assets/img/image-(2).png" download="image" rel="noopener"><img
-                src="/images/image-(2).png" alt="Digital assets key visual image"></a></div>
-          <div class="kit"><a href="/images/image-(3).png" download="image" rel="noopener"><img
-                src="/images/image-(3).png" alt="Digital assets key visual image"></a></div>
-          <div class="kit"><a href="/images/image-(4).png" download="image" rel="noopener"><img
-                src="/images/image-(4).png" alt="Digital assets key visual image"></a></div>
-          <div class="kit"><a href="/images/image-(5).png" download="image" rel="noopener"><img
-                src="/images/image-(5).png" alt="Digital assets key visual image"></a></div>
-          <div class="kit"><a href="/images/image-(6).png" download="image" rel="noopener"><img
-                src="/images/image-(6).png" alt="Digital assets key visual image"></a></div>
-          <div class="kit"><a href="/images/image-(7).png" download="image" rel="noopener"><img
-                src="/images/image-(7).png" alt="Digital assets key visual image"></a></div>
-        </div>
-          <div></div>
+            <h5>Key Visual </h5>
+            <p> It will be an asset that represents our brand and services.</p>
+            <div class="kit">
+              <a href="/images/image-(1).png" download="image" rel="noopener">
+              <img src="/images/image-(1).png" alt="Digital assets Banner image">
+            </a>
+            </div>
+            <div class="kit">
+              <a href="/assets/img/image-(2).png" download="image" rel="noopener">
+                <img src="/images/image-(2).png" alt="Digital assets key visual image">
+              </a>
+            </div>
+            <div class="kit">
+              <a href="/images/image-(3).png" download="image" rel="noopener">
+                <img src="/images/image-(3).png" alt="Digital assets key visual image">
+                </a>
+              </div>
+            <div class="kit">
+              <a href="/images/image-(4).png" download="image" rel="noopener">
+                <img src="/images/image-(4).png" alt="Digital assets key visual image">
+              </a>
+            </div>
+            <div class="kit">
+              <a href="/images/image-(5).png" download="image" rel="noopener">
+                <img src="/images/image-(5).png" alt="Digital assets key visual image">
+              </a>
+            </div>
+            <div class="kit">
+              <a href="/images/image-(6).png" download="image" rel="noopener">
+                <img src="/images/image-(6).png" alt="Digital assets key visual image">
+              </a>
+            </div>
+            <div class="kit">
+              <a href="/images/image-(7).png" download="image" rel="noopener">
+                <img src="/images/image-(7).png" alt="Digital assets key visual image">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -39,12 +59,6 @@
 <script>
   export default {
     name: "DigitalAssetsPage",
-    data() {
-
-    },
-    mounted() {
-
-    },
   }
 </script>
 
@@ -67,7 +81,7 @@
   .mediakit .kit {
     margin-bottom: 30px;
     max-width: 580px;
-    position: relative; 
+    position: relative;
   }
 
   .mediakit .kit::before {

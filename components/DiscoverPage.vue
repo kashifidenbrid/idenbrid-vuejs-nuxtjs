@@ -59,31 +59,35 @@
         </div>
         <!--Discover Block-->
         <div class="discover-block col-lg-4 col-md-6 col-sm-12">
+          <nuxt-link to="/officepage">
           <div class="inner-box">
-            <div class="image-box"><img src="/images/resource/officeandaccess.png" alt=""></div>
+            <div class="image-box">
+              <img src="/images/resource/officeandaccess.png" alt="">
+            </div>
             <div class="cap-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="cap-inner">
                 <h5>OFFICE & ACCESS <br>
                   You can see the company office and access.</h5>
-                <div class="more-link"><nuxt-link class="theme-btn" to="/about"><span
-                  class="fa fa-angle-right"></span></nuxt-link></div>
+               
               </div>
             </div>
           </div>
+        </nuxt-link>
         </div>
         <!--Discover Block-->
         <div class="discover-block col-lg-4 col-md-6 col-sm-12">
+          <nuxt-link to="/DigitalAsssts">
           <div class="inner-box">
             <div class="image-box"><img src="/images/resource/digitalasset.png" alt=""></div>
             <div class="cap-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="cap-inner">
                 <h5>DIGITAL ASSETS <br>
                   We provide the official logo and key visuals of IDENBRID.</h5>
-                <div class="more-link"><nuxt-link class="theme-btn" to="/digitalAsssts"><span
-                  class="fa fa-angle-right"></span></nuxt-link></div>
+      
               </div>
             </div>
           </div>
+        </nuxt-link>
         </div>
       </div>
     </div>

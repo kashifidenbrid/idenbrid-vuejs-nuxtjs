@@ -19,6 +19,7 @@ const _14881f0a = () => interopDefault(import('../pages/graphic-designing.vue' /
 const _0ea0eab3 = () => interopDefault(import('../pages/index-2.vue' /* webpackChunkName: "pages/index-2" */))
 const _0eaf0234 = () => interopDefault(import('../pages/index-3.vue' /* webpackChunkName: "pages/index-3" */))
 const _18240b44 = () => interopDefault(import('../pages/not-found.vue' /* webpackChunkName: "pages/not-found" */))
+const _e22fc782 = () => interopDefault(import('../pages/officepage.vue' /* webpackChunkName: "pages/officepage" */))
 const _b08c76f8 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _25246b61 = () => interopDefault(import('../pages/portfolio-single.vue' /* webpackChunkName: "pages/portfolio-single" */))
 const _68240846 = () => interopDefault(import('../pages/portfolio-single-2.vue' /* webpackChunkName: "pages/portfolio-single-2" */))
@@ -110,6 +111,10 @@ export const routerOptions = {
     path: "/not-found",
     component: _18240b44,
     name: "not-found"
+  }, {
+    path: "/officepage",
+    component: _e22fc782,
+    name: "officepage"
   }, {
     path: "/portfolio",
     component: _b08c76f8,
