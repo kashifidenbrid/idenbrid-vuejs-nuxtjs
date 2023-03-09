@@ -109,6 +109,9 @@
                   </ul> -->
                 </li>
                 <li>
+                  <nuxt-link to="/careerpage">Career</nuxt-link>
+                </li>
+                <li>
                   <nuxt-link to="/contact">Contact</nuxt-link>
                 </li>
               </ul>
@@ -229,6 +232,9 @@
               </li>
             </ul>
           </li>
+          <li>
+                  <nuxt-link to="/careerpage">Career</nuxt-link>
+                </li>
           <li>
             <nuxt-link to="/contact">Contact</nuxt-link>
           </li>

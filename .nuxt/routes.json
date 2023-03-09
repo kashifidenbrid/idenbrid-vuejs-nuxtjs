@@ -35,6 +35,13 @@
     "_name": "_d0dea4e2"
   },
   {
+    "name": "careerpage",
+    "path": "/careerpage",
+    "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/careerpage.vue",
+    "chunkName": "pages/careerpage",
+    "_name": "_6e7df9fe"
+  },
+  {
     "name": "ceomessage",
     "path": "/ceomessage",
     "component": "/Applications/XAMPP/xamppfiles/htdocs/idenbrid-vuejs-nuxtjs/pages/ceomessage.vue",
