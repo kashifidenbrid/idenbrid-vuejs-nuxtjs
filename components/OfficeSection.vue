@@ -24,36 +24,36 @@
                 </div>
                 <div class="slider-title">
                     <div class="swiper-pagination office-swiper-pagination"></div>
-                    <div class="swiper-button-next office-button-next"><i class="fa fa-arrow-right"></i></div>
-                    <div class="swiper-button-prev office-button-prev"><i class="fa fa-arrow-left"></i></div>
+                    <!-- <div class="swiper-button-next office-button-next"><i class="fa fa-arrow-right"></i></div>
+                    <div class="swiper-button-prev office-button-prev"><i class="fa fa-arrow-left"></i></div> -->
                     <div class="swiper mySwiper-main">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=1" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=7" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=2" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=3" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=4" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=5" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
                             <div class="swiper-slide">
-                                <img src="https://source.unsplash.com/random/600x600?sig=6" alt="Office access image">
+                                <img src="/images/officeand-access.png" alt="Office access image">
                                 <p>Entrance / Approach</p>
                             </div>
 
@@ -72,7 +72,7 @@
                                 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="text_area">
-                            <p class="place">Pakistan Head Office<br>〒54000<br>Basement 1st floor, 176 Y-Block, DHA
+                            <p class="place">Pakistan Head Office<br>54000<br>Basement 1st floor, 176 Y-Block, DHA
                                 Phase3, Lahore,
                                 Pakistan</p>
                             <p class="number">
@@ -80,7 +80,7 @@
                                 MAIL : <a href="mailto:contactusjp@idenbrid.com">contactusjp@idenbrid.com</a>
                             </p>
                             <p class="station">
-                                Lahore Airportよ<br class="sp">15 minutes by car<br>
+                                Lahore Airport<br class="sp">15 minutes by car<br>
                                 Gulberg center<br class="sp">20 minutes by car
                             </p>
                             <a href="https://www.google.com/maps/search/176+Y-Block,+DHA+Phase3,+Lahore,+Pakistan/@31.4722224,74.3767664,21z"
@@ -97,38 +97,43 @@
     export default {
         mounted() {
             var swiper = new Swiper(".mySwiper-main", {
-                slidesPerView: 2.5,
+                // slidesPerView: 2.5,
                 spaceBetween: 50,
-                centeredSlides: true,
+                // autoHeight: true,
+                // centeredSlides: true,
                 loop: true,
                 autoplay: {
                     delay: 2500,
                     disableOnInteraction: false,
                 },
-                pagination: {
-                    el: ".swiper-pagination",
-                    type: "fraction",
-                },
+                // pagination: {
+                //     el: ".swiper-pagination",
+                //     type: "fraction",
+                // },
                 navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
                 breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 10
+                    },
                     360: {
-                        slidesPerView: 1.5,
-                        spaceBetween: 20,
+                        slidesPerView: 1,
+                        spaceBetween: 5,
                     },
                     640: {
-                        slidesPerView: 1.5,
+                        slidesPerView: 2,
                         spaceBetween: 20,
                     },
                     768: {
-                        slidesPerView: 1.5,
+                        slidesPerView: 2,
                         spaceBetween: 20,
                     },
                     1024: {
-                        slidesPerView: 2.3,
-                        spaceBetween: 50,
+                        slidesPerView: 3,
+                        spaceBetween: 30,
                     },
                 },
             });
@@ -136,12 +141,14 @@
     };
 </script>
 <style>
-.slider-title .office-button-next::after{
-content: " " !important ;
-}
-.slider-title .office-button-prev::after{
-content: " "!important ;
-}
+    .slider-title .office-button-next::after {
+        content: " " !important;
+    }
+
+    .slider-title .office-button-prev::after {
+        content: " " !important;
+    }
+
     .btns-group {
         padding-bottom: 120px;
         width: 100%;
@@ -191,26 +198,31 @@ content: " "!important ;
         height: 100%;
     }
 
+    .swiper-slide img {
+        width: 100%;
+    }
+
     .swiper-slide p {
         margin-top: 15px;
         display: block;
         color: black;
         font-size: 14px;
         text-align: left;
-        margin-left: 30px;
         font-family: DIN-Bold;
         font-weight: bold;
+        display: flex;
+        justify-content: center;
     }
 
     .mySwiper-main .swiper-wrapper .swiper-slide {
         display: block;
     }
 
-    .slider-title {
+    /* .slider-title {
         position: relative;
         height: 500px;
         margin-bottom: 70px;
-    }
+    } */
 
     .office-button-prev:after {
         font-size: 15px;
@@ -226,12 +238,12 @@ content: " "!important ;
 
     .office-button-next,
     .swiper-rtl .office-button-prev {
-        top: -15%;
-        right: 29%;
+        right: 0px;
+        top: 41%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #929191;
+        background-color: #2980B9;
         height: 70px;
         width: 70px;
         border-radius: 50%;
@@ -329,13 +341,12 @@ content: " "!important ;
 
     .office-button-prev,
     .swiper-rtl .office-button-next {
-        left: auto;
-        right: 34%;
-        top: -15%;
+        top: 48%;
+        left: 78px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #868686;
+        background-color: #2980B9;
         height: 70px;
         width: 70px;
         border-radius: 50%;
@@ -382,17 +393,17 @@ content: " "!important ;
 
         .office-button-next,
         .swiper-rtl .office-button-prev {
-            top: 90%;
+            top: 25%;
             height: 50px;
             width: 50px;
-            right: 40%;
+            right: 0%;
         }
 
         .office-button-prev,
         .swiper-rtl .office-button-next {
-            top: 90%;
+            top: 25%;
             height: 50px;
-            right: 30%;
+            right: 0%;
             width: 50px;
         }
 
@@ -404,6 +415,49 @@ content: " "!important ;
         .office-swiper-pagination {
             top: 75%;
             left: 0%;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .mv_textarea .entxt {
+            font-size: 40px;
+        }
+
+        .jptxt {
+            font-size: 24px;
+        }
+
+        .lead_area {
+            padding: 0px;
+        }
+
+        .access--index {
+            padding: 0px;
+        }
+
+        .access--index .box .text_area p.place {
+            margin-top: 0px;
+        }
+
+        .access--index .box .text_area {
+            width: 100%;
+            padding: 0px;
+        }
+
+        .access--index .box .map {
+            width: 100%;
+            height: 100vw;
+            margin-bottom: 40px;
+        }
+
+        .access--index .box {
+            flex-direction: column-reverse;
+            padding-top: 0px;
+
+        }
+
+        .logo h1 {
+            font-size: 24px;
         }
     }
 </style>

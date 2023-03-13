@@ -1285,6 +1285,7 @@ img {
   cursor: pointer;
   margin-left: 0px;
   color: var(--thm-base);
+  color: #fff;
   margin: 40px 0px 0px;
   display: none;
 }
@@ -5373,7 +5374,7 @@ img.lazy-image.loaded {
   top: 0;
   line-height: 30px;
   font-size: 16px;
-  color: var(--thm-base);
+  /* color: var(--thm-base); */
 }
 
 .main-footer .info-widget ul li:last-child {
@@ -5467,11 +5468,14 @@ img.lazy-image.loaded {
 .newsletter-form .form-group .theme-btn span {
   vertical-align: middle;
   font-size: 14px;
+  color: #fff;
 }
 
 .newsletter-form .form-group .theme-btn:hover {
-  background: #ffffff;
-  color: var(--thm-base);
+  background: #fff;
+}
+.newsletter-form .form-group .theme-btn:hover span{
+  color:black;
 }
 
 .main-footer .footer-bottom {
@@ -9525,11 +9529,11 @@ img.lazy-image.loaded {
 }
 
 .mobile-nav__container {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 0px;
+  padding: 0px 100px;
   background: #fff;
-  margin-top: 120px;
+  margin-top: 90px;
+  position: fixed;
+  width: 100%;
 }
 
 .mobile-nav__container ul {
@@ -9771,9 +9775,24 @@ img.lazy-image.loaded {
     padding: 30px 0px 0px;
   }
   .agency-section .featured-block-two .image img{
-    width: 80%;
-    height: 232px;
+    width: 200px;
+    height: 200px;
     margin: 0px auto;
+  }
+  .about-section {
+    padding: 0px 0px 60px;
+  }
+  .banner-carousel .content-box .inner{
+    margin-top: 90px;
+  }
+  .services-section{
+    padding: 60px 0px;
+  }
+  .call-to-section{
+    margin-bottom: 45px;
+  }
+  .team-section{
+    padding: 60px 0px;
   }
   }
 /* style switcher */

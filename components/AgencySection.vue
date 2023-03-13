@@ -6,7 +6,7 @@
         <div class="left-col col-xl-6 col-lg-12 col-md-12 col-sm-12">
           <div class="inner">
             <div class="sec-title">
-              <h2>Best design Agency <br>solutions <span class="dot">.</span></h2>
+              <h2>Best design company <br>solutions <span class="dot">.</span></h2>
             </div>
 
             <!--Default Tabs-->

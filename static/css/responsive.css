@@ -96,7 +96,7 @@
 	}
 
 	.main-header.fixed-header .nav-outer .mobile-nav-toggler {
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 	.header-style-two.fixed-header .nav-outer .mobile-nav-toggler {
 		color: #fff;
@@ -319,7 +319,7 @@
 		padding-top: 170px;
 		padding-bottom: 60px;
 	}
-
+	.banner-section .banner-one
 	.services-section,
 	.about-section,
 	.gallery-section,
@@ -330,9 +330,11 @@
 	.about-section-two,
 	.sponsors-section-two,
 	.sidebar-page-container{
-		padding: 90px 0px 60px;
+		padding: 0px 0px 45px;
 	}
-
+.team-section{
+	padding: 60px 0px;
+}
 	.live-section,
 	.services-section-two,
 	.gallery-section-two,
@@ -399,7 +401,7 @@
 	}
 
 	.call-to-section .inner{
-		padding: 70px 20px 60px;
+		padding: 20px 20px 20px;
 	}
 
 	.agency-section,
@@ -680,6 +682,7 @@
 
 	.team-section{
 		padding-bottom: 50px;
+		padding-top: 60px;
 	}
 
 	.team-section .owl-theme .owl-dots{
